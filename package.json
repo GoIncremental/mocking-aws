@@ -1,0 +1,29 @@
+{
+  "name": "mocking-aws",
+  "version": "1.0.0",
+  "description": "Test mocking out aws calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -t 100 -r junit -o test-results.xml -r console -o stdout -r html -o coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoIncremental/mocking-aws.git"
+  },
+  "author": "David Bochenski",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GoIncremental/mocking-aws/issues"
+  },
+  "homepage": "https://github.com/GoIncremental/mocking-aws#readme",
+  "devDependencies": {
+    "aws-sdk-mock": "^1.5.0",
+    "chai": "^3.5.0",
+    "lab": "^11.0.1",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.3.0",
+    "loadash": "0.0.1"
+  }
+}
